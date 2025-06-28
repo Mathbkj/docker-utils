@@ -1,24 +1,24 @@
-🐳 docker-utils
-A growing collection of useful Docker utilities, scripts, and configuration snippets gathered throughout my journey of mastering Docker.
+# 🐳 docker-utils
 
-This repository serves as a personal toolkit and knowledge hub, evolving alongside my understanding of Docker's ecosystem. From basic setup to more advanced use cases, each addition reflects hands-on learning, experimentation, and practical problem-solving.
+A growing collection of practical Docker utilities, scripts, and configuration snippets gathered throughout my journey of mastering Docker.
 
-🔧 What's inside:
-Handy Dockerfile and docker-compose.yml templates
+This repository serves as a personal toolkit and evolving knowledge base, reflecting hands-on learning, experimentation, and problem-solving as I deepen my understanding of the Docker ecosystem.
 
-Nginx and Node.js container examples
+---
 
-Volume and network management tips
+## 🔧 What's inside
 
-Common troubleshooting commands and fixes
+- Ready-to-use `Dockerfile` and `docker-compose.yml` templates  
+- Examples with Nginx, Node.js, and other container setups  
+- Tips for managing volumes and networks effectively  
+- Common troubleshooting commands and fixes  
+- Scripts to streamline image builds, container runs, and cleanups  
+- Notes and guides on advanced Docker concepts  
 
-Scripts to streamline image builds, container runs, and cleanups
+---
 
-Notes and guides for deeper Docker concepts
+## 📌 Purpose
 
-📌 Purpose
-Learn by doing 🧠
-
-Share useful patterns and discoveries 🧰
-
-Create a reference point for future projects 📚
+- Learn by doing 🧠  
+- Share useful patterns and discoveries 🧰  
+- Build a reliable reference point for future projects 📚  
