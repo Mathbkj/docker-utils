@@ -1,0 +1,25 @@
+services:
+  crate01:
+    container_name: crate01
+    image: crate
+    pull_policy: always
+    environment:
+      - CRATE_HEAP_SIZE=1g
+    ports:
+      - 4200:4200
+      - 5432:5432
+    restart: always
+    volumes:
+      - ./temp/crate/01:/data
+    networks:
+      - network
+    command: >
+      crate 
+      -Cnetwork.host=_site_ 
+      -Cnode.name=crate01 
+      -Cgateway.expected_data_nodes=1
+      -Cgateway.recover_after_data_nodes=1
+
+networks:
+  network:
+    driver: bridge
